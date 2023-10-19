@@ -1,4 +1,4 @@
-#第２回課題：
+#第２回課題：  
 1.GIT  
 -git push originは必ず失敗し、 git push --set-upstream originコマンドで対応、失敗理由は不明  
 -lecture02.mdのpushがうまく行かず,数回リポジトリ削除→再作成でやり直し  
