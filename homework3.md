@@ -29,6 +29,7 @@
 2.Railsの事前設定に関して：
 - データベースへの接続は講義通りにコマンドを実行しても何度も失敗したので、railsの事前設定に関する知識不足を痛感しました。
 - 最終的接続成功したが、イレギュラーへの対処力を身に着けるために、引き続き自主的な学習が必要。
+- ”sudo service mysql stop”　コマンドでデーターベースを止めようとしたが "Failed to stop mysql.service: Unit mysql.service not loaded."というエラーメッセージが表示され、結局MySQLにログインし、READ LOCKコマンドでデーターバースへの接続で止めました。その後、講師のアドバイス通り"ps -e"コマンドで作動中の正しいservice名を特定し、”sudo service mysqld stop”コマンドでMySQLを止めることができました。
 
 ![sudo](sudo_stop_fail.png)
 
